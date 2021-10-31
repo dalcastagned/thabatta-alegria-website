@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Dra. Thabatta Alegria</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link type="text/css" rel="stylesheet" href="./src/css/lightslider.css" />
+	<link rel="stylesheet" type="text/css" href="./src/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="./src/js/lightslider.js"></script>
+	<script src="./src/js/main.js"></script>
+
+</head>
+
+<body>
+
+	<!-- Nav -->
+	<nav>
+		<input type="checkbox" id="check">
+		<label onclick="check()" for="check" class="checkbtn">
+			<div class="mobile-menu">
+				<div id="line1"></div>
+				<div id="line2"></div>
+				<div id="line3"></div>
+			</div>
+		</label>
+		<ul class="menu">
+			<li><a class="active" href="#">Início</a></li>
+			<li><a href="#">Sobre Nós</a></li>
+			<li><a href="#">Lista de Espera</a></li>
+			<li><a href="#">Procedimentos</a></li>
+			<li><a href="#">Contato</a></li>
+		</ul>
+	</nav>
+	<!-- /Nav -->
+
+	<!-- Front cover -->
+	<section>
+		<img class="frontCoverUltrawide" src="./src/img/Ultrawide.jpg"
+			alt="Foto da doutora com escrita ao lado dizendo Dra. Thabatta Alegria, harmonização facial, realce sua beleza com naturalidade">
+		<img class="frontCoverDesktop" src="./src/img/Desktop.jpg"
+			alt="Foto da doutora com escrita logo ao lado dizendo Dra. Thabatta Alegria, harmonização facial, realce sua beleza com naturalidade">
+		<img class="frontCoverTablet" src="./src/img/Tablet.jpg"
+			alt="Foto da doutora com escrita logo acima dizendo Dra. Thabatta Alegria, harmonização facial, realce sua beleza com naturalidade">
+		<img class="frontCoverMobile" src="./src/img/Mobile.jpg"
+			alt="Foto da doutora com escrita logo acima dizendo Dra. Thabatta Alegria, harmonização facial, realce sua beleza com naturalidade">
+	</section>
+	<!-- /Front cover -->
+
+	<!-- E-book -->
+	<section class="ebook">
+		<img src="./src/img/Ebook.jpg" alt="Imagem com dois livros sobre harmonização facial um sobre o outro">
+		<div>
+			<h2>Porque não?</h2>
+			<p>Saiba como se tornar um profissional influente e referente quando o assunto é harmonização facial!</p>
+			<strong>
+				<p>Receba agora no seu e-mail nosso e-book.</p>
+			</strong>
+			<form class="contact" id="contact" action="" method="post">
+				<fieldset>
+					<label for="name">Nome *</label>
+					<input placeholder="Nome" name="name" id="name" type="text" required>
+				</fieldset>
+				<fieldset>
+					<label for="email">Email *</label>
+					<input placeholder="E-mail" name="email" id="email" type="email" required>
+				</fieldset>
+				<button name="submit" type="submit" id="contact-submit" class="button">SOLICITAR</button>
+				</fieldset>
+		</div>
+	</section>
+	<!-- /E-book -->
+
+	<!-- About Us -->
+	<div class="container">
+		<section class="aboutUs">
+			<img src="./src/img/AboutUs.jpg"
+				alt="Dra. Thabatta Alegria segurando uma seringa retirando liquido de frasco de toxina botulínica">
+			<div>
+				<h2>Sobre nós</h2>
+				<p>Há mais de 15 anos transformando sorrisos e faces.</p>
+				<a href="#" class="button">SAIBA MAIS</a>
+			</div>
+		</section>
+	</div>
+	<!-- /About Us -->
+
+	<!-- Procedures -->
+	<section class="procedures">
+		<div class="proceduresTopContainer">
+			<h2>Procedimentos</h2>
+			<a href="#" class="button">VER TODOS OS PROCEDIMENTOS</a>
+		</div>
+		<ul id="procedureslightSlider" class="proceduresLightSlider">
+			<li>
+				<div>
+					<a href=""><img src="./src/img/Bioestimuladores.jpg" alt=""></a>
+					<p>Bioestimuladores</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href=""><img src="./src/img/FiosdePDO.jpg" alt=""></a>
+					<p>Fios de PDO</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href=""><img src="./src/img/Lipodepapada3D.jpg" alt=""></a>
+					<p>Lipo de Papada 3D</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href=""><img src="./src/img/PreenchedoresFaciais.jpg" alt=""></a>
+					<p>Preenchedores Faciais</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href=""><img src="./src/img/PreenchimentoLabial.jpg" alt=""></a>
+					<p>Preenchimento Labial</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href=""><img src="./src/img/RinoModelacao.jpg" alt=""></a>
+					<p>Rinomodelação</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href=""><img src="./src/img/Skinbooster.jpg" alt=""></a>
+					<p>Skinbooster</p>
+				</div>
+			</li>
+			<li>
+				<div>
+					<a href=""><img src="./src/img/Toxina.jpg" alt=""></a>
+					<p>Toxina Botulínica</p>
+				</div>
+			</li>
+
+		</ul>
+	</section>
+	<!-- /Procedures -->
+
+	<!-- Testimonials -->
+	<section class="container">
+		<div class="testimonials-container">
+			<ul id="testimonialsLightSlider" class="testimonialsLightSlider">
+				<li>
+					<div class="patient">
+						<div class="patient-information">
+							<img src="./src/img/Alessandra.jpg" alt="">
+							<div>
+								<h2>Alessandra Arruda</h2>
+								<p>Paciente Modelo e Particular</p>
+							</div>
+						</div>
+						<div class="triangle"></div>
+						<div class="testimonial">
+							<p>Estou aqui me olhando no espelho e agradecendo a Deus por ter me dado a
+								oportunidade de te conhecer. Não só como profissional, mas sim, como ser humano tbm.
+								Você é
+								excepcional! Uma competência indescritível. E todo o seu trabalho é feito com AMOR! Você
+								cuida
+								dos detalhes e sempre quer fazer da MELHOR maneira possível. Hoje estou tão feliz por
+								mais
+								uma
+								vez ter a oportunidade de ser atendida por você. Faz tudo com tanta competência e amor
+								que a
+								gente fica assim. Muuiiiito feliz e grata por você existir!!
+							</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="patient">
+						<div class="patient-information">
+							<img src="./src/img/Magda.jpg" alt="">
+							<div>
+								<h2>Magda Queroz</h2>
+								<p>Aluna Curso Básico e Avançado </p>
+							</div>
+						</div>
+						<div class="triangle"></div>
+						<div class="testimonial">
+							<p>Obrigada por todo aprendizado que você consegue passar sem medo de
+								ensinar e
+								fazendo tudo com tanto amor e dedicação me apaixonei na profissional excelente que você
+								é!
+								😍😍😍🥰🥰❤️❤️❤️</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="patient">
+						<div class="patient-information">
+							<img src="./src/img/Hildebrando.jpg" alt="">
+							<div>
+								<h2>Hildebrando</h2>
+								<p>Aluno Básico e Avançado</p>
+							</div>
+						</div>
+						<div class="triangle"></div>
+						<div class="testimonial">
+							<p>Mais um curso teórico-prático em harmonização com a minha amiga e mestre
+								@dra.thabattaalegria que sempre nos surpreende com tamanha entrega na arte de
+								compartilhar
+								seus
+								conhecimentos, sem esconder nada e dividindo tudo!!! Mais uma vez lhe agradeço por esse
+								❤️
+								enorme de quem não tem medo em compartilhar sem esconder!!! Agradeço também à toda sua
+								equipe,
+								em nome da @mai_milena que se vira nos 30 pra que tudo transcorra formidavelmente
+								excelente!
+							</p>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="patient">
+						<div class="patient-information">
+							<img src="./src/img/Lana.jpg" alt="">
+							<div>
+								<h2>Lana Caroline</h2>
+								<p>Paciente Modelo</p>
+							</div>
+						</div>
+						<div class="triangle"></div>
+						<div class="testimonial">
+							<p>Maravilhosa tanto como pessoa que nem preciso conviver pra dizer isso
+								e
+								como
+								profissional senhor amado 🙈🤩👏🏻👏🏻👏🏻 você e toda sua equipe são e foram
+								fantásticos.
+								Gratidão por tudo e todo cuidado que teve e paciência mulher maravilha
+								🙏🏻👏🏻👏🏻👏🏻💖💐💐🤩
+							</p>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!-- /Testimonials -->
+
+	<!-- Instagram -->
+	<div class="instagramContainer">
+		<section class="instagram">
+			<div class="instagramID">
+				<i class="fa fa-instagram"></i>
+				<span>thabattaalegria</span>
+			</div>
+			<div class="instagramImages">
+				<img src="./src/img/Instagram1.jpg" alt="Imagem de seringas sobre uma bandeja de prata">
+				<img src="./src/img/Instagram2.jpg" alt="Imagem de consultório odontológico">
+				<img src="./src/img/Instagram3.jpg" alt="Imagem da Dra. Thabatta Alegria">
+			</div>
+			<a href="#" class="button"><i class="fa fa-instagram"></i>SIGA NOSSO INSTAGRAM</a>
+		</section>
+	</div>
+	<!-- Instagram -->
+
+	<!-- Contact Us -->
+	<section class="container contactUs">
+		<h2>Dra. Thabatta Alegria</h2>
+		<span>CRO - MT 4310</span>
+		<a href="#" class="button">CONTATO</a>
+	</section>
+	<!-- /Contact Us -->
+</body>
+<footer>
+	<p>© 2021 Copyright – Thabatta da Silva Pereira Alegria LTDA</p>
+</footer>
+
+</html>
