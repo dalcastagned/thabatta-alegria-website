@@ -22,9 +22,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## Autor
 
 <a href="https://github.com/dalcastagned">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/65626347?v=4" width="100px;" alt=""/>
+ <img src="https://avatars.githubusercontent.com/u/65626347?v=4" width="100px;"/>
  <br />
- <sub><b>Daniel Dalcastagne</b></sub></a> <a href="https://github.com/dalcastagned" title="Rocketseat">🚀</a>
+ <sub><b>Daniel Dalcastagne</b></sub></a> <a href="https://github.com/dalcastagned">🚀</a>
 
 
 Feito com ❤️ por Daniel Dalcastagne 👋🏽 Entre em contato!
